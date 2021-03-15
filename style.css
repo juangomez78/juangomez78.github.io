@@ -609,6 +609,10 @@ p {
     opacity: 0;
 }
 
+.titulo1{
+  display: none;
+}
+
 
 @media(min-width:767px) {
     .navbar-custom {
@@ -687,7 +691,15 @@ footer .footer-below {
 /***Potrait mode ******/
 
 @media (max-width: 768px) {
-	
+	.titulo{
+  display: none;
+}
+.titulo1{
+  display:flex;
+}
+.textodet{
+  display: none;
+}
 #intro {
 
 	/* background: url(../Images/cup-of-coffee-1280537_1920.jpg) no-repeat bottom center scroll; */
