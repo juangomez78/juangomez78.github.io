@@ -765,7 +765,9 @@ iframe {
   height: 355px;
   float: right;
 }
-
+.modal-dialog {
+    padding-top: 100px;
+}
 
 
 @media screen and (min-width:320px) and (max-width:767px) {
